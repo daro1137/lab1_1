@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/cygdrive/e/WSEI/Zarządzanie_projektami_IT/lab1_1/kukulka.cpp" "/cygdrive/e/WSEI/Zarządzanie_projektami_IT/lab1_1/cmake-build-debug/CMakeFiles/lab1_1.dir/kukulka.cpp.o"
   "/cygdrive/e/WSEI/Zarządzanie_projektami_IT/lab1_1/main.cpp" "/cygdrive/e/WSEI/Zarządzanie_projektami_IT/lab1_1/cmake-build-debug/CMakeFiles/lab1_1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

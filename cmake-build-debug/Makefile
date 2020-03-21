@@ -123,6 +123,33 @@ lab1_1/fast:
 	$(MAKE) -f CMakeFiles/lab1_1.dir/build.make CMakeFiles/lab1_1.dir/build
 .PHONY : lab1_1/fast
 
+kukulka.o: kukulka.cpp.o
+
+.PHONY : kukulka.o
+
+# target to build an object file
+kukulka.cpp.o:
+	$(MAKE) -f CMakeFiles/lab1_1.dir/build.make CMakeFiles/lab1_1.dir/kukulka.cpp.o
+.PHONY : kukulka.cpp.o
+
+kukulka.i: kukulka.cpp.i
+
+.PHONY : kukulka.i
+
+# target to preprocess a source file
+kukulka.cpp.i:
+	$(MAKE) -f CMakeFiles/lab1_1.dir/build.make CMakeFiles/lab1_1.dir/kukulka.cpp.i
+.PHONY : kukulka.cpp.i
+
+kukulka.s: kukulka.cpp.s
+
+.PHONY : kukulka.s
+
+# target to generate assembly for a file
+kukulka.cpp.s:
+	$(MAKE) -f CMakeFiles/lab1_1.dir/build.make CMakeFiles/lab1_1.dir/kukulka.cpp.s
+.PHONY : kukulka.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... lab1_1"
 	@echo "... edit_cache"
+	@echo "... kukulka.o"
+	@echo "... kukulka.i"
+	@echo "... kukulka.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

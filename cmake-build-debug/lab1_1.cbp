@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/e/WSEI/Zarządzanie_projektami_IT/lab1_1/kukulka.cpp">
+			<Option target="lab1_1"/>
+		</Unit>
 		<Unit filename="/cygdrive/e/WSEI/Zarządzanie_projektami_IT/lab1_1/main.cpp">
 			<Option target="lab1_1"/>
 		</Unit>
