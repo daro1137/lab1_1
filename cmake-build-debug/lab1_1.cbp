@@ -83,6 +83,9 @@
 		<Unit filename="/cygdrive/e/WSEI/Zarządzanie_projektami_IT/lab1_1/main.cpp">
 			<Option target="lab1_1"/>
 		</Unit>
+		<Unit filename="/cygdrive/e/WSEI/Zarządzanie_projektami_IT/lab1_1/parabola.cpp">
+			<Option target="lab1_1"/>
+		</Unit>
 		<Unit filename="/cygdrive/e/WSEI/Zarządzanie_projektami_IT/lab1_1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

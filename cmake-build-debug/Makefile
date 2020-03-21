@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/lab1_1.dir/build.make CMakeFiles/lab1_1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+parabola.o: parabola.cpp.o
+
+.PHONY : parabola.o
+
+# target to build an object file
+parabola.cpp.o:
+	$(MAKE) -f CMakeFiles/lab1_1.dir/build.make CMakeFiles/lab1_1.dir/parabola.cpp.o
+.PHONY : parabola.cpp.o
+
+parabola.i: parabola.cpp.i
+
+.PHONY : parabola.i
+
+# target to preprocess a source file
+parabola.cpp.i:
+	$(MAKE) -f CMakeFiles/lab1_1.dir/build.make CMakeFiles/lab1_1.dir/parabola.cpp.i
+.PHONY : parabola.cpp.i
+
+parabola.s: parabola.cpp.s
+
+.PHONY : parabola.s
+
+# target to generate assembly for a file
+parabola.cpp.s:
+	$(MAKE) -f CMakeFiles/lab1_1.dir/build.make CMakeFiles/lab1_1.dir/parabola.cpp.s
+.PHONY : parabola.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... parabola.o"
+	@echo "... parabola.i"
+	@echo "... parabola.s"
 .PHONY : help
 
 

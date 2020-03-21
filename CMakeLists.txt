@@ -3,4 +3,4 @@ project(lab1_1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(lab1_1 main.cpp)
+add_executable(lab1_1 main.cpp parabola.cpp)
